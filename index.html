@@ -54,7 +54,10 @@
       }
 
       .yellow-box {
+        display: flex;
         background-color:darkblue;
+        align-items: center;
+        padding: 10px;
         margin: 4px;
         flex-basis: calc(100% / 3 - 8px);
         min-width:  300px;
@@ -82,6 +85,10 @@
             flex-direction: column;
 
             }
+
+            .green-box{
+                flex-shrink: 1;
+            }
         }
 
 
@@ -91,6 +98,9 @@
 
       
       .green-box {
+        display: flex;
+        align-items: center;
+        padding: 5px;
         background-color: aqua;
         margin: 4px;
         flex:1;
