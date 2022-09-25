@@ -11,6 +11,7 @@
         color: black;
         margin: 0px;
       }
+      
       header {
         display: flex;
       }
@@ -84,9 +85,28 @@
       }
 
       
-      @media screen and (max-width: 415px) and (max-device-width: 415px){
-        
-      }
+      @media screen and (max-width: 1148px){
+            .green-box{
+                flex-direction: column;
+            }
+            .green-box img{
+                max-height: 300px;
+            }
+        }
+
+        @media screen and (max-width: 888px){
+            .green-box img{
+                max-height: 250px;
+            }
+        }
+
+        @media screen and (max-width: 510px){
+            .green-box img {
+                max-height: 160px;
+                max-width: 120px;
+            }
+        }
+      
       
       .yellow-box {
         display: flex;
