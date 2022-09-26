@@ -141,6 +141,7 @@ background-color: aqua;
 
   .sale-item-row {
     display: inline-flex;
+    width: 100%;
   }
 
   .sale-item img {
