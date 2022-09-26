@@ -80,7 +80,7 @@ background-color: aqua;
     flex-basis: calc(100% / 3 - 8px);
     min-width:  280px;
     flex:1;
-    font-family: Georgia;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -141,6 +141,7 @@ background-color: aqua;
     margin: 4px;
     padding: 10px;
     flex: 1;
+    font-family: Sail;
   }
 
   .sale-item-row {
