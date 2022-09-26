@@ -219,6 +219,10 @@ background-color: aqua;
     .sale-item-row {
       display: block;
     }
+
+    .sale-menu-container{
+        width:initial;
+    }
   }
 
   .form-container {
