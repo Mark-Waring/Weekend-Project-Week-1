@@ -1,0 +1,302 @@
+* {
+    text-align: center;
+    color: black;
+    margin: 0px;
+  }
+  header {
+    display: flex;
+  }
+
+  .home-nav {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: navy;
+    flex-basis: calc(100% / 3);
+    justify-content: space-around;
+  }
+  .home-nav-1 {
+    background-color: aqua;
+  }
+  
+
+  .sale-nav {
+
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: navy;
+    flex-basis: calc(100% / 3);
+    justify-content: space-around;
+}
+.sale-nav-2 {
+background-color: aqua;
+}
+
+  .contact-nav {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: navy;
+    flex-basis: calc(100% / 3);
+    justify-content: space-around;
+  }
+  .contact-nav-3 {
+    background-color: aqua;
+  }
+
+  a{
+    color: white;
+  }
+
+  .home-body-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2px;
+    min-height: 83vh;
+    align-items: flex-start;
+        
+    }
+
+    
+        
+
+  
+  .home-content-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 7 0;
+    background-color: aqua;
+    min-height: 90vh;
+    
+  }
+
+  .home-content {
+    display: flex;
+    background-color:darkblue;
+    align-items: center;
+    padding: 10px;
+    margin: 4px;
+    flex-basis: calc(100% / 3 - 8px);
+    min-width:  280px;
+    flex:1;
+
+}
+
+.home-content p{
+    color: white;
+    
+}
+  .home-sidebar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+    flex: 3 0;
+    padding: 2px;
+    min-height: 70vh;
+    
+    }
+
+    @media screen and (max-width: 415px){
+
+        .home-body-container{
+        flex-direction: column;
+
+        }
+
+        .home-sidebar{
+            flex-shrink: 1;
+        }
+    }
+
+
+  
+    
+
+
+  
+  .home-sidebar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: aqua;
+    margin: 4px;
+    flex:1;
+    
+  }
+
+  .sale-body-container {
+    display: flex;
+    margin: 2px;
+    align-items: flex-start;
+  }
+  .sale-item-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    background-color: darkblue;
+    margin: 2px;
+  }
+  .sale-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin: 4px;
+    padding: 10px;
+    flex: 1;
+  }
+
+  .sale-item-row {
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .sale-item img {
+    max-height: 200px;
+    transition: 0.3s;
+  }
+
+  .sale-item img:hover {
+    transform: scale(1.5);
+  }
+
+  .sale-item p {
+    margin: 10px;
+  }
+
+  .sale-menu-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    background-color: aqua;
+    width: 200px;
+    padding: 2px;
+    margin-right: 2px;
+  }
+
+  .sale-menu-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    min-height: 4vh;
+  }
+
+  .sale-red {
+    background-color: red;
+  }
+  .sale-orange {
+    background-color: orange;
+  }
+  .sale-yellow {
+    background-color: yellow;
+  }
+  .sale-green {
+    background-color: green;
+  }
+  .sale-blue {
+    background-color: blue;
+  }
+  .sale-purple {
+    background-color: purple;
+  }
+  .sale-pink {
+    background-color: pink;
+  }
+  .sale-white {
+    background-color: white;
+  }
+  .sale-white a {
+    color: black;
+  }
+  .sale-black {
+    background-color: black;
+  }
+  .sale-grey {
+    background-color: grey;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .sale-item {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 670px) {
+    .sale-item-row {
+      display: block;
+    }
+  }
+
+  .contact-form-container {
+    margin: 40px;
+    min-height: 75vh;
+  }
+
+  .contact-form-group {
+    display: flex;
+  }
+
+  .contact-form-group label {
+    flex: 1;
+    display: block;
+    min-width: 125 px;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .contact-form-group input {
+    flex: 5;
+    margin-left: 4px;
+  }
+
+  #comments {
+    height: 50vh;
+  }
+
+  .radio-box {
+    font-weight: bold;
+  }
+
+  .submit {
+    align-items: center;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    background-color: darkblue;
+  }
+
+  footer p {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 50px;
+    background-color: navy;
+    justify-content: space-around;
+  }
