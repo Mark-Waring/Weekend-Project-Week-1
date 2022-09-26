@@ -15,7 +15,7 @@
         display: flex;
       }
 
-      .nav {
+      .contact-nav {
         display: flex;
         align-items: center;
         height: 50px;
@@ -23,16 +23,17 @@
         flex-basis: calc(100% / 3);
         justify-content: space-around;
       }
-      .nav3 {
+      .contact-nav-3 {
         background-color: aqua;
       }
+
       a {
         color: white;
       }
 
       .form-container {
         margin: 40px;
-        min-height: 71vh;
+        min-height: 75vh;
       }
 
       .form-group {
@@ -53,7 +54,7 @@
       }
 
       #comments {
-        height: 53vh;
+        height: 50vh;
       }
 
       .radio-box {
@@ -63,23 +64,38 @@
       .submit {
         align-items: center;
       }
+
+      footer {
+        background-color: darkblue;
+      }
+
+      footer p {
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 50px;
+        background-color: navy;
+        justify-content: space-around;
+      }
     </style>
   </head>
   <body>
     <header>
-      <nav class="nav nav1"><a href="/index.html">HOME</a></nav>
-      <nav class="nav nav2"><a href="/for_sale.html">FOR SALE</a></nav>
-      <nav class="nav nav3">CONTACT US</nav>
+      <nav class="contact-nav"><a href="/index.html">HOME</a></nav>
+      <nav class="contact-nav"><a href="/for-sale.html">FOR SALE</a></nav>
+      <nav class="contact-nav contact-nav-3">CONTACT US</nav>
     </header>
     <div class="form-container">
       <div class="form-group">
         <label for="name">Name</label>
         <input id="name" type="text" />
       </div>
+      <br />
       <div class="form-group">
         <label for="email">Email</label>
         <input id="email" type="email" />
       </div>
+      <br />
       <div class="form-group" id="form-comments">
         <label for="comments">Additional Comments</label>
         <input id="comments" type="text" />
@@ -99,5 +115,8 @@
         <button type="submit">Submit</button>
       </div>
     </div>
+    <footer>
+      <p>THIS IS OUR FOOTER</p>
+    </footer>
   </body>
 </html>
