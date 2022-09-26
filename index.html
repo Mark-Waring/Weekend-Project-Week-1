@@ -1,17 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
+    <title>For Sale</title>
     <style>
       * {
         text-align: center;
         color: black;
-        margin: 0px;
       }
+
       header {
         display: flex;
       }
@@ -24,129 +23,281 @@
         flex-basis: calc(100% / 3);
         justify-content: space-around;
       }
-      .nav1 {
+      .nav2 {
         background-color: aqua;
       }
 
-      a{
+      a {
         color: white;
       }
-      
+
       .body-container {
         display: flex;
-        flex-flow: row wrap;
         margin: 2px;
-        min-height: 83vh;
         align-items: flex-start;
-            
-        }
-
-        
-            
-
-      
-      .purple-container {
+      }
+      .red-container {
         display: flex;
         flex-flow: row wrap;
-        flex: 7 0;
+        flex: 1;
+        background-color: darkblue;
+        margin: 2px;
+      }
+      .green-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: aqua;
-        min-height: 90vh;
-        
+        margin: 4px;
+        padding: 10px;
+        flex: 1;
+      }
+
+      .item-row {
+        display: inline-flex;
+        width: 100%;
+      }
+
+      .green-box img {
+        max-height: 200px;
+        transition: 0.3s;
+      }
+
+      .green-box img:hover {
+        transform: scale(1.5);
+      }
+
+      .green-box p {
+        margin: 10px;
+      }
+
+      .purple-container {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        background-color: aqua;
+        width: 200px;
+        padding: 2px;
+        margin-right: 2px;
       }
 
       .yellow-box {
         display: flex;
-        background-color:darkblue;
+        justify-content: center;
         align-items: center;
-        padding: 10px;
         margin: 4px;
-        flex-basis: calc(100% / 3 - 8px);
-        min-width:  280px;
-        flex:1;
-    
-    }
-
-    .yellow-box p{
-        color: white;
-        
-    }
-      .red-container {
-        display: flex;
-        flex-direction: column;
-        background-color: darkblue;
-        flex: 3 0;
-        padding: 2px;
-        min-height: 70vh;
-        
-        }
-
-        @media screen and (max-width: 415px){
-
-            .body-container{
-            flex-direction: column;
-
-            }
-
-            .green-box{
-                flex-shrink: 1;
-            }
-        }
-
-
-      
-        
-
-
-      
-      .green-box {
-        display: flex;
-        align-items: center;
-        padding: 5px;
-        background-color: aqua;
-        margin: 4px;
-        flex:1;
-        
+        min-height: 4vh;
       }
-      footer {
-        line-height: 60px;
-        color: white;
-        background-color: darkblue;
-        margin: 2px;
+
+      .yellow-box-red {
+        background-color: red;
       }
-      
+      .yellow-box-orange {
+        background-color: orange;
+      }
+      .yellow-box-yellow {
+        background-color: yellow;
+      }
+      .yellow-box-green {
+        background-color: green;
+      }
+      .yellow-box-blue {
+        background-color: blue;
+      }
+      .yellow-box-purple {
+        background-color: purple;
+      }
+      .yellow-box-pink {
+        background-color: pink;
+      }
+      .yellow-box-white {
+        background-color: white;
+      }
+      .yellow-box-white a {
+        color: black;
+      }
+      .yellow-box-black {
+        background-color: black;
+      }
+      .yellow-box-grey {
+        background-color: grey;
+      }
     </style>
   </head>
   <body>
     <header>
-        <nav class="nav nav1">HOME</nav>
-        <nav class="nav nav2"><a href="/for_sale.html">FOR SALE</a></nav>
-        <nav class="nav nav3"><a href="/contact.html">HOME</a></nav>
+      <nav class="nav nav1"><a href="/index.html">HOME</a></nav>
+      <nav class="nav nav2">FOR SALE</nav>
+      <nav class="nav nav3"><a href="/contact.html">CONTACT US</a></nav>
     </header>
     <div class="body-container">
-      <main class="purple-container">
-        <div class="yellow-box">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae amet nisi laborum corporis modi. Inventore doloremque quidem culpa suscipit iste ratione quos aperiam. Ullam, nihil.</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque provident quia corporis laudantium!</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus earum ab nulla.</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus minima fuga debitis optio consectetur velit minus ex unde? Eaque ipsam maiores, voluptate eum sapiente ullam iusto voluptates dolores cupiditate. Distinctio quam blanditiis labore obcaecati veritatis, architecto facere dicta in, repellat corrupti eveniet quo.</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus numquam culpa, quaerat pariatur illum quo delectus mollitia, aut, debitis atque. Qui dicta impedit quibusdam, ex error corporis non nemo iusto magni assumenda expedita ea.</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam saepe totam ab praesentium cum. Aspernatur eveniet esse, exercitationem alias dolore quos sed animi minus dignissimos non tempore tempora vel quas autem. Quas nesciunt delectus exercitationem?</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ab ut velit aut maiores sunt voluptate culpa ad.</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A inventore, similique alias facere libero quam magni recusandae doloribus aliquid suscipit earum iure saepe, eius exercitationem laborum ipsam, dignissimos quo reprehenderit. Magni, minima?</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum earum doloremque mollitia dolore molestias eius quasi dicta at? Impedit eum adipisci, eveniet vel, veniam consequatur officiis eius praesentium rem, magnam nam quibusdam blanditiis a aliquid consequuntur quidem. Fugiat alias nobis doloribus cum accusamus et architecto dicta odio deserunt rerum! Sunt doloremque nostrum voluptates tempora. Inventore omnis possimus pariatur deserunt eos hic mollitia similique voluptatem nemo dignissimos, delectus velit voluptas iste, consectetur id.</p></div>
-        <div class="yellow-box"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ea similique architecto error dicta.</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, omnis qui.</p></div>
-        <div class="yellow-box"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis illo vitae quod tenetur ullam ab accusantium assumenda similique totam error. Eligendi consequuntur natus nobis possimus, atque saepe modi quod dolorum non amet fugit?</p></div>
+      <aside class="purple-container">
+        <div class="yellow-box yellow-box-red">
+          <a href="#red-shirts">Red Shirts</a>
+        </div>
+        <div class="yellow-box yellow-box-orange">
+          <a href="#orange-shirts">Orange Shirts</a>
+        </div>
+        <div class="yellow-box yellow-box-yellow">
+          <a href="#yellow-shirts">Yellow Shirts</a>
+        </div>
+        <div class="yellow-box yellow-box-green">
+          <a href="#green-shirts">Green Shirts</a>
+        </div>
+        <div class="yellow-box yellow-box-blue">
+          <a href="#blue-shirts">Blue Shirts</a>
+        </div>
+        <div class="yellow-box yellow-box-purple">
+          <a href="#purple-shirts">Purple Shirts</a>
+        </div>
+        <div class="yellow-box yellow-box-pink">
+          <a href="#pink-shirts">Pink Shirts</a>
+        </div>
+        <div class="yellow-box yellow-box-white">
+          <a href="#white-shirts">White Shirts</a>
+        </div>
+        <div class="yellow-box yellow-box-black">
+          <a href="#black-shirts">Black Shirts</a>
+        </div>
+        <div class="yellow-box yellow-box-grey">
+          <a href="#grey-shirts">Grey Shirts</a>
+        </div>
+      </aside>
+      <main class="red-container">
+        <div class="item-row">
+          <div class="green-box" id="red-shirts">
+            <img
+              src="https://cdn.clothingshoponline.com/Images/Color/79437_f_fm.jpg"
+              alt="Red Shirts"
+            />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+              voluptatibus rem magni molestias iste cupiditate iure harum
+              deleniti doloribus distinctio veritatis ex recusandae, qui sed?
+            </p>
+          </div>
+
+          <div class="green-box" id="orange-shirts">
+            <img
+              src="https://imgprd19.hobbylobby.com/0/2d/95/02d95aaa2491fc88832ff0fca3388b37d29309de/350Wx350H-709618-0320.jpg"
+              alt="Orange Shirts"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              dolorem repellat voluptatum minus quia, architecto impedit quaerat
+              nobis, cumque dolores quibusdam mollitia aliquid temporibus culpa.
+              Deleniti harum temporibus expedita ab rerum ullam earum, iste,
+              nisi illo molestias, quam itaque asperiores!
+            </p>
+          </div>
+        </div>
+        <div class="item-row">
+          <div class="green-box" id="yellow-shirts">
+            <img
+              src="https://imgprd19.hobbylobby.com/2/95/f5/295f5b799e49599ead8f79c4861a6c91380b3966/350Wx350H-1449735-111519.jpg"
+              alt="Yellow Shirts"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quisquam minus ducimus?
+            </p>
+          </div>
+          <div class="green-box" id="green-shirts">
+            <img
+              src="https://m.media-amazon.com/images/I/61a3FIXG2bL._AC_UX679_.jpg"
+              alt="Green Shirts"
+            />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequuntur non amet iure molestiae, praesentium odit veniam!
+              Accusamus, possimus!
+            </p>
+          </div>
+        </div>
+        <div class="item-row">
+          <div class="green-box" id="blue-shirts">
+            <img
+              src="https://www.apparelchoice.com/251520-large_default/h000-hammer-short-sleeve-t-shirt.jpg"
+              alt="Blue Shirts"
+            />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              inventore sit sed nobis eveniet! Sequi iusto laboriosam natus
+              illum aperiam nihil animi obcaecati expedita, numquam nisi! Totam
+              eligendi quis quos et repellendus autem dolorem expedita in ipsa
+              tempore, placeat aliquam deserunt nemo ullam, qui omnis dicta
+              impedit. Debitis, rerum! Ratione, minus? Ea totam animi quia!
+            </p>
+          </div>
+          <div class="green-box" id="purple-shirts">
+            <img
+              src="https://cdnp.sanmar.com/medias/sys_master/images/images/h7b/h98/11775687786526/1104-Purple-5-8000PurpleFlatFront3-337W.jpg"
+              alt="Purple Shirts"
+            />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloribus nihil veritatis perferendis illo amet laudantium aut
+              perspiciatis ex!
+            </p>
+          </div>
+        </div>
+        <div class="item-row">
+          <div class="green-box" id="pink-shirts">
+            <img
+              src="https://n.nordstrommedia.com/id/sr3/9e357fc5-d68b-4f1b-a7ee-f8d9e0ec3687.jpeg?h=365&w=240&dpr=2"
+              alt="Pink Shirts"
+            />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+              odio repudiandae quaerat debitis, consequatur et deleniti
+              reprehenderit reiciendis at earum minus cumque aspernatur. Non,
+              illo! Voluptatem, qui!
+            </p>
+          </div>
+          <div class="green-box" id="white-shirts">
+            <img
+              src="https://assets.vogue.com/photos/624dca5a129f17485bb0fa4c/master/w_1280,c_limit/slide_3.jpg"
+              alt="White Shirts"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
+              dolorem et consequatur praesentium tempore nobis explicabo,
+              veritatis fuga odio mollitia laudantium! Tempore illum itaque
+              voluptatibus praesentium est, ipsa enim aperiam voluptate vitae
+              accusantium, eveniet quibusdam? Ipsa, velit perspiciatis.
+            </p>
+          </div>
+        </div>
+        <div class="item-row">
+          <div class="green-box" id="black-shirts">
+            <img
+              src="https://imgprd19.hobbylobby.com/2/fe/7f/2fe7f9b08fb17ea5bffd92cf575dee4a8d898668/700Wx700H-634485-0320.jpg"
+              alt="Black Shirts"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              placeat accusantium obcaecati omnis, earum, velit aliquam at
+              aliquid voluptatem voluptas quam, ipsa error quae provident dolor
+              quas? Iusto, eos? Tempora nam odit sequi esse quasi ipsam
+              provident eligendi tempore, praesentium quos nihil voluptates eius
+              distinctio omnis, perspiciatis accusantium cum. Minima
+              reprehenderit enim odio sed voluptatum est eos ab, accusantium
+              doloribus voluptate, sequi quam repudiandae veritatis laboriosam
+              dolore maiores. Eligendi saepe maxime molestiae.
+            </p>
+          </div>
+          <div class="green-box" id="grey-shirts">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0268/0675/products/tee_6040_DkGryHth07_540x.jpg?v=1547324771"
+              alt="Grey Shirts"
+            />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur tenetur id excepturi eos rem facere dicta.
+            </p>
+          </div>
+        </div>
       </main>
-        <aside class="red-container">
-          <div class="green-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nostrum veniam eius sit! Libero, accusantium!</div>
-          <div class="green-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, esse nesciunt dolore magni omnis aliquid explicabo minus nisi illo reiciendis. Quibusdam neque recusandae cumque est id nesciunt alias error doloribus at commodi saepe pariatur nostrum magni animi asperiores fugit, voluptatem quae ex.</div>
-          <div class="green-box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsam atque corrupti ut repellendus modi nam deserunt inventore.</div>
-          <div class="green-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore esse repudiandae minus, quia sapiente tempore laboriosam aliquam laborum velit nostrum assumenda alias eligendi fuga eum aut?</div>
-          <div class="green-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at eaque, blanditiis temporibus fugiat dignissimos quisquam impedit voluptate quo, dolor saepe facere eos incidunt optio? Possimus harum tenetur dolorem quo esse laboriosam, expedita obcaecati inventore ratione? Ab aliquam est ad facilis quibusdam iste, cumque asperiores error, perferendis quaerat a voluptas assumenda natus!</div>
-        </aside>
-      </div>
     </div>
-    <footer>THIS IS A FOOTER</footer>
   </body>
 </html>
